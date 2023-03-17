@@ -14,7 +14,9 @@ basic.forever(function () {
     let Train_Passing = 0
     if (Train_Passing == 1) {
         strip.showColor(neopixel.colors(NeoPixelColors.Red))
+        basic.pause(100)
         strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+        basic.pause(100)
     }
     if (Train_Passing == 0) {
         strip.showColor(neopixel.colors(NeoPixelColors.White))
